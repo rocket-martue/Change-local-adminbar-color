@@ -17,13 +17,13 @@ if ( $type == 'local' ) {
 	add_action(
 		'wp_head',
 		function () {
-			echo '<style type="text/css">#wpadminbar { background: #cf4944; }</style>';
+			echo '<style type="text/css">#wpadminbar { background: #738e96; }</style>';
 		}
 	);
 	add_filter(
 		'get_user_option_admin_color',
 		function () {
-		return 'sunrise';
+		return 'ocean';
 		}
 	);
 }
